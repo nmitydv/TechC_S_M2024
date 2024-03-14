@@ -3,7 +3,7 @@ import dotenv from 'dotenv';
 import express from 'express';
 import connectDb from './config/db.js';
 import Routes from './routes/Routes.js';
-
+import swagger from './config/swagger.js';
 dotenv.config();
 
 // variables declarations
@@ -16,6 +16,9 @@ connectDb(MONGODB_URI);
 
 // Json middleware
 app.use(express.json());
+
+// Use Swagger middleware
+app.use(swagger);
 
 // Load Routes
 app.use("/api", Routes);
