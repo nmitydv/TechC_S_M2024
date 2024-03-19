@@ -3,7 +3,8 @@ import dotenv from 'dotenv';
 import express from 'express';
 import connectDb from './config/db.js';
 import Routes from './routes/Routes.js';
-import swagger from './config/swagger.js';
+import swaggerJSDoc from 'swagger-jsdoc';   
+import swaggerUI from 'swagger-ui-express';
 dotenv.config();
 
 // variables declarations
@@ -17,8 +18,24 @@ connectDb(MONGODB_URI);
 // Json middleware
 app.use(express.json());
 
-// Use Swagger middleware
-app.use(swagger);
+const options = {
+	definition: {
+		openapi: "3.0.0",
+		info: {
+			title: "Library API",
+			version: "1.0.0",
+			description: "A simple Express Library API",
+		},
+		servers: [
+			{
+				url: "https://localhost:3000",
+			},
+		],
+	},
+	apis: ["./routes/*.js"],
+};
+const specs = swaggerJSDoc(options);
+app.use("/api-docs", swaggerUI.serve, swaggerUI.setup(specs));
 
 // Load Routes
 app.use("/api", Routes);

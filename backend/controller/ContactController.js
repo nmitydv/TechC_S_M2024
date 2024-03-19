@@ -1,7 +1,6 @@
 // controllers/contactController.js
 import Contact from '../models/Contact.js';
 
-// Controller function to handle POST request for creating a new contact
 export const createContact = async (req, res) => {
   try {
     const newContact = new Contact(req.body);
