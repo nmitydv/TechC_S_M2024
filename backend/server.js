@@ -5,6 +5,8 @@ import connectDb from './config/db.js';
 import Routes from './routes/Routes.js';
 import swaggerJSDoc from 'swagger-jsdoc';   
 import swaggerUI from 'swagger-ui-express';
+import cors from 'cors';
+
 dotenv.config();
 
 // variables declarations
@@ -14,6 +16,9 @@ const MONGODB_URI = process.env.MONGODB_URI;
 
 // Connecting to Database;
 connectDb(MONGODB_URI);
+
+// Enable CORS
+app.use(cors());
 
 // Json middleware
 app.use(express.json());
