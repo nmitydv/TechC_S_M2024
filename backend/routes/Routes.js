@@ -95,14 +95,14 @@ const router = express.Router();
  *       content:
  *         application/json:
  *           schema:
- *             $ref: '#./models/Contact.js'
+ *              $ref: '#/components/schemas/Contact'
  *     responses:
  *       201:
  *         description: New contact created successfully
  *         content:
  *           application/json:
  *             schema:
- *              $ref: '#./models/Contact.js'
+ *                $ref: '#/components/schemas/Contact'
  *       400:
  *         description: Bad request, check request body
  */
