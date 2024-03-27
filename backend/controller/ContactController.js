@@ -10,3 +10,12 @@ export const createContact = async (req, res) => {
     res.status(400).json({ message: error.message });
   }
 };
+
+export async function getAllContacts(req, res) {
+  try {
+    const contacts = await Contact.find();
+    res.json(contacts);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+}

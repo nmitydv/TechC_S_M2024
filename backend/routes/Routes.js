@@ -1,6 +1,6 @@
 // routes/contactRoutes.js
 import express from 'express';
-import { createContact } from '../controller/ContactController.js';
+import { createContact, getAllContacts } from '../controller/ContactController.js';
 
 const router = express.Router();
 
@@ -86,7 +86,7 @@ const router = express.Router();
 
 /**
  * @swagger
- * /contacts:
+ * /api/contacts:
  *   post:
  *     summary: Create a new contact
  *     tags: [Contacts]
@@ -107,5 +107,7 @@ const router = express.Router();
  *         description: Bad request, check request body
  */
 router.post('/contact', createContact);
+
+router.post('/get-all', getAllContacts);
 
 export default router;
