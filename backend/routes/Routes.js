@@ -107,7 +107,24 @@ const router = express.Router();
  *         description: Bad request, check request body
  */
 router.post('/contact', createContact);
-
+/**
+ * @swagger
+ * /api/get-all:
+ *   post:
+ *     summary: Get all contacts
+ *     tags: [Contacts]
+ *     responses:
+ *       200:
+ *         description: Retrieved all contacts successfully
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 $ref: '#/components/schemas/Contact'
+ *       500:
+ *         description: Internal server error
+ */
 router.post('/get-all', getAllContacts);
 
 export default router;
