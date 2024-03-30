@@ -1,17 +1,38 @@
 
 
 export const routesConstant = {
-    Landing:{
+    Home:{
         path : "/"
     },
-    Login: {
-        path: "/login"
+    About: {
+        path: "/about"
     },
-    ForgotPassword: {
+    Portfolio: {
         path: "/forgot-password"
     },
-    Verification:{
-        path: "/verfication"
-    }
+    Contact:{
+        path: "/contact"
+    },
+    WebDesign:{
+        path: "/web-design"
+    },
+    WebDevelopment:{
+        path: "/web-development"
+    },
+    AppDesign:{
+        path: "/app-design"
+    },
+    AppDevelopment:{
+        path: "/app-development"
+    },
+    Ui_Ux_Design:{
+        path: "/ui-ux-design"
+    },
+    ContentCreation:{
+        path: "/content-creation"
+    },
+    GraphicDesign:{
+        path: "/graphic-design"
+    },
 
 };
