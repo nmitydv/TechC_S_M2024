@@ -15,6 +15,7 @@ import AppDevelopmentPage from '../pages/AppDevelopmentPage'
 import UiUxPage from '../pages/UiUxPage'
 import GraphicsDesignPage from '../pages/GraphicsDesignPage'
 import ContentCreationPage from '../pages/ContentCreationPage'
+import NavbarComponent from '../components/navbar/NavbarComponent'
 
 export const AppRoutes = () => {
     return (
@@ -22,7 +23,7 @@ export const AppRoutes = () => {
            <BrowserRouter>
     <Routes>
         {/* Public Routing */}
-        <Route path={routesConstant.Home.path} element={<HomePage />} />
+        <Route path={routesConstant.Home.path} element={<NavbarComponent><HomePage /></NavbarComponent>} />
         <Route path={routesConstant.About.path} element={<AboutPage />} />
         <Route path={routesConstant.Portfolio.path} element={<PortfolioPage />} />
         <Route path={routesConstant.Contact.path} element={<ContactPage />} />

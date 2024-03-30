@@ -8,7 +8,7 @@ export const routesConstant = {
         path: "/about"
     },
     Portfolio: {
-        path: "/forgot-password"
+        path: "/portfolio"
     },
     Contact:{
         path: "/contact"

@@ -1,0 +1,11 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-around; /* or any other value like space-between, center, etc. */
+    align-items: center;
+    padding: 10px; /* Optional padding */
+  }
+  .navbar-logo {
+    width: 150px; /* Adjust width as needed */
+    height: auto; /* To maintain aspect ratio */
+  }
