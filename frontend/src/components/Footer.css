@@ -1,0 +1,11 @@
+.footer_ctn {
+  padding: 40px 80px 40px 80px;
+  border-radius: 10px;
+}
+.footer_tags {
+  font-weight: 400;
+}
+.horizantal_line {
+  /* width: 1206px; */
+  margin: auto;
+}
