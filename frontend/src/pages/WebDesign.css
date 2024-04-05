@@ -1,0 +1,37 @@
+.webDesign_ctn {
+  width: 900px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 30px;
+}
+.inside_text {
+  font-weight: 400;
+}
+.webDesign_img_section {
+  background-color: #ffebed;
+  border-radius: 30px;
+}
+.webDevelopment_img_section {
+  background-color: #eaf2ff;
+  border-radius: 30px;
+}
+.AppDesign_img_section {
+  background-color: #fff3c9;
+  border-radius: 30px;
+}
+.AppDevelopment_img_section {
+  background-color: #eaf2ff;
+  border-radius: 30px;
+}
+.GraphicDesign_img_section {
+  background-color: #e4fdff;
+  border-radius: 30px;
+}
+.ContentCreation_img_section {
+  background-color: #eaf2ff;
+  border-radius: 30px;
+}
+.learn_title {
+  font-weight: 500;
+  font-size: 16px;
+  color: #b47354;
+}
