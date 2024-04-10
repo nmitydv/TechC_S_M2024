@@ -29,11 +29,12 @@ const NavbarComponent = () => {
     //   <button className="navbar-button">Button</button>
     // </nav>
 
-    <nav className="navbar navbar-expand-lg navbar-light ">
-      <div className="container-fluid">
-        <div className="collapse navbar-collapse  " id="navbarNavAltMarkup">
+    <div>
+      <nav className="navbar navbar-expand-lg navbar-light ">
+      <div className="container-fluid mx-5">
+        <div className="collapse navbar-collapse mx-2 " id="navbarNavAltMarkup">
           <div className="col navbar-nav ">
-            <div className="col-6 ">
+            <div className="col-6">
               {/* <span class="navbar-toggler-icon"> */}
               <Link to={routesConstant.Home.path} className="nav-link">
                 <img src={logo} alt="Logo" className="navbar-logo ml-5 ms-5" />
@@ -71,7 +72,7 @@ const NavbarComponent = () => {
                 id="dropdownMenuLink"
                 data-bs-toggle="dropdown"
               >
-                Dropdown link
+               Service
               </a>
 
               <ul className="dropdown-menu">
@@ -92,13 +93,14 @@ const NavbarComponent = () => {
                 </li>
               </ul>
             </div>
-            <div className=" col-2 ms-2 btn_space align-content-center ">
-              <button className="getStarted_btn ps-4">Get Started</button>
+            <div className=" col-2 ms-2 btn_space align-content-center d-flex justify-content-end ">
+              <button className="getStarted_btn ps-4 ">Get Started</button>
             </div>
           </div>
         </div>
       </div>
     </nav>
+    </div>
   );
 };
 

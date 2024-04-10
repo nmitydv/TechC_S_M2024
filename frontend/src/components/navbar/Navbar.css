@@ -4,6 +4,8 @@
   justify-content: space-around; /* or any other value like space-between, center, etc. */
   align-items: center;
   padding: 10px; /* Optional padding */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  
 }
 .navbar-logo {
   width: 150px; /* Adjust width as needed */
@@ -19,8 +21,8 @@
 }
 .getStarted_btn {
   background-color: #edb159;
-  /* position: relative; */
-  font-family: Proxima Nova;
+  position: relative;
+  /* font-family: Proxima Nova; */
   font-weight: 400;
   /* font-size: 14px; */
   line-height: 14px;
@@ -33,7 +35,7 @@
 }
 .getStarted_btn::after {
   content: "";
-  /* position: absolute; */
+  position: absolute;
   top: 50%;
   right: 2px; /* Adjust the distance from the right side */
   transform: translateY(-50%);

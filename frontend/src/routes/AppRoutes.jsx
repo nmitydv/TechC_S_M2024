@@ -24,7 +24,14 @@ export const AppRoutes = () => {
       <BrowserRouter>
         <Routes>
           {/* Public Routing */}
-          {/* <Route path={routesConstant.Home.path} element={<NavbarComponent><HomePage /></NavbarComponent>} /> */}
+          <Route
+            path={routesConstant.Home.path}
+            element={
+              // <NavbarComponent>
+                <HomePage />
+              // </NavbarComponent>
+            }
+          />
           <Route path={routesConstant.About.path} element={<AboutPage />} />
           <Route
             path={routesConstant.Portfolio.path}
@@ -59,14 +66,14 @@ export const AppRoutes = () => {
             path={routesConstant.ContentCreation.path}
             element={<ContentCreationPage />}
           />
-          <Route
+          {/* <Route
             path={routesConstant.Home.path}
             element={
               <Footer>
                 <HomePage />
               </Footer>
             }
-          />
+          /> */}
         </Routes>
       </BrowserRouter>
     </>

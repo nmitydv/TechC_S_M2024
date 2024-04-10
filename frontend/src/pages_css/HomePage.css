@@ -1,0 +1,169 @@
+.first_screen {
+  border-bottom-right-radius: 120px;
+}
+.text_ctn {
+  width: 561px;
+}
+.heading_title {
+  font-weight: 500;
+  font-size: 16px;
+  color: #b47354;
+}
+.title_text {
+  margin-top: 12px;
+  color: black;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 54px;
+}
+.subtitle_text {
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #666666;
+}
+.get_btn {
+  background-color: #edb159;
+  border-radius: 192px;
+  width: 159px;
+  height: 56px;
+  font-weight: 400;
+  font-size: 14px;
+}
+.watch_video {
+  border-radius: 192px;
+  width: 172px;
+  height: 56px;
+  border: 1px solid;
+  background-color: #fff;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 18px;
+  align-content: center;
+}
+.img_section {
+  width: 693px;
+  height: 503px;
+}
+.second_screen {
+  background-color: #95d8de;
+}
+.getInTouch_btn {
+  width: 156px;
+  height: 56px;
+  border-radius: 64px;
+  border: 1px;
+  color: #b47354;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #fff;
+}
+.third_screen {
+  gap: 100px;
+}
+.idea_ctn {
+  width: 1206px;
+  height: 378px;
+  border-radius: 30px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.idea_icon_bg {
+  width: 60px;
+  height: 60px;
+  background-color: #fff3c9;
+  border-radius: 15px;
+}
+.idea_icon {
+  height: 55px;
+  width: 55px;
+  padding-top: 19.5px;
+  padding-left: 17px;
+}
+.idea_card_img {
+  width: 590px;
+  height: 378px;
+  border-radius: 30px;
+  background-color: #fff3c9;
+}
+.research_icon_bg {
+  width: 60px;
+  height: 60px;
+  background-color: #eaf2ff;
+  border-radius: 15px;
+}
+.research_card_img {
+  width: 590px;
+  height: 378px;
+  border-radius: 30px;
+  background-color: #eaf2ff;
+}
+.text_area {
+  width: 780px;
+  align-content: center;
+}
+.browse_btn {
+  width: 239px;
+  height: 48px;
+  border-radius: 80px;
+  background-color: #fff;
+  top: 14px;
+  left: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+}
+.fift_screen {
+  margin-top: 70px;
+  height: 384px;
+  /* width: 1206px; */
+  border-radius: 23px;
+  border: 1px solid rgba(235, 239, 246, 1);
+}
+.fift_screen_textctn {
+  width: 646px;
+  height: 166px;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 54px;
+}
+.fift_screen_para {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+.leftIllustration {
+  height: 384px;
+}
+.sixth_screen {
+  margin-top: 100px;
+}
+.upper_text {
+  text-align: center;
+
+  /* width: 780px;
+  height: 144px; */
+}
+.Academic_icon_bg {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: #fff3c9;
+}
+.Academic_icon {
+}
+.Academic_card_img {
+  height: 378px;
+  background-color: #fff3c9;
+  border-radius: 30px;
+}
+.seventh_screen{
+  margin-top: 100px;
+  background-color: #EDB159;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+}
+.seventh_screen_text{
+  font-size: 46px;
+  font-weight: 700;
+}
