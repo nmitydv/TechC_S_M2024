@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { routesConstant } from "../../routes/AppRoutesConstants";
 import logo from "../../assets/logo.svg";
 import "./Navbar.css";
+import GetStartedBtn from "../GetStartedBtn";
 
 const NavbarComponent = () => {
   return (
@@ -93,9 +94,10 @@ const NavbarComponent = () => {
                 </li>
               </ul>
             </div>
-            <div className=" col-2 ms-2 btn_space align-content-center d-flex justify-content-end ">
+            <GetStartedBtn/>
+            {/* <div className=" col-2 ms-2 btn_space align-content-center d-flex justify-content-end ">
               <button className="getStarted_btn ps-4 ">Get Started</button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

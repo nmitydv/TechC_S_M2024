@@ -1,0 +1,64 @@
+.idea_ctn {
+    width: 1206px;
+    height: 378px;
+    border-radius: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  }
+  .idea_icon_bg {
+    width: 60px;
+    height: 60px;
+    background-color: #fff3c9;
+    border-radius: 15px;
+  }
+  .idea_icon {
+    height: 55px;
+    width: 55px;
+    padding-top: 19.5px;
+    padding-left: 17px;
+  }
+  .idea_card_img {
+    width: 590px;
+    height: 378px;
+    border-radius: 30px;
+    background-color: #fff3c9;
+  }
+  .research_icon_bg {
+    width: 60px;
+    height: 60px;
+    background-color: #eaf2ff;
+    border-radius: 15px;
+  }
+  .research_card_img {
+    width: 590px;
+    height: 378px;
+    border-radius: 30px;
+    background-color: #eaf2ff;
+  }
+  .design_icon_bg {
+    width: 60px;
+    height: 60px;
+    background-color:
+    #FFEBED;
+    border-radius: 15px;
+  }
+  .Design_card_img{
+    width: 590px;
+    height: 378px;
+    border-radius: 30px;
+    background-color:
+    #FFEBED;
+  }
+  .Development_icon_bg{
+    width: 60px;
+    height: 60px;
+    background-color:
+    #EAF2FF;
+    border-radius: 15px;
+  } 
+  .Development_card_img{
+    width: 590px;
+    height: 378px;
+    border-radius: 30px;
+    background-color:
+    #EAF2FF;
+  }

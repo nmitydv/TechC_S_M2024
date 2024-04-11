@@ -8,7 +8,7 @@ const WebDevelopmentPage = () => {
     <>
       <div className="col-7 webDesign_ctn">
         <div className="d-flex">
-          <div className="col-6 p-5 align-content-center">
+          <div className="col-6 p-3 align-content-center">
             <div className="p-5">
               <h2 className="fw-bold">Web Development</h2>
               <p className="text-secondary mt-3 inside_text">

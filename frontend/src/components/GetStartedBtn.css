@@ -1,0 +1,14 @@
+.getStarted_btn {
+    background-color: #edb159;
+    position: relative;
+    /* font-family: Proxima Nova; */
+    font-weight: 400;
+    /* font-size: 14px; */
+    line-height: 14px;
+    width: 159px;
+    height: 50px;
+    border-radius: 192px;
+    left: -393px;
+    text-align: start;
+    border: none;
+  }

@@ -8,7 +8,9 @@
 .inside_text {
   font-weight: 400;
 }
+
 .webDesign_img_section {
+
   height: 370px;
   background-color: #ffebed;
   border-radius: 30px;
@@ -19,14 +21,17 @@
   border-radius: 30px;
 }
 .AppDesign_img_section {
+  height: 370px;
   background-color: #fff3c9;
   border-radius: 30px;
 }
 .AppDevelopment_img_section {
+  height: 370px;
   background-color: #eaf2ff;
   border-radius: 30px;
 }
 .GraphicDesign_img_section {
+  height: 370px;
   background-color: #e4fdff;
   border-radius: 30px;
 }

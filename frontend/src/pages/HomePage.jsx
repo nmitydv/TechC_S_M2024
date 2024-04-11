@@ -24,7 +24,16 @@ import leftIllustration from "../assets/LefftIllustration.svg";
 import rightIllustration from "../assets/RightIllustration.svg";
 import AcademicWeb from "../assets/AcademicWeb.svg";
 import digital from "../assets/Digital.svg";
-// import "../components/navbar/Navbar.css";
+import Footer from "../components/Footer";
+import MainFrame from "../components/MainFrame";
+import AppDesignPage from "./AppDesignPage";
+import WebDesignPage from "./WebDesignPage";
+import WebDevelopmentPage from "./WebDevelopmentPage";
+import AppDevelopmentPage from "../pages/AppDevelopmentPage";
+import UiUxPage from "./UiUxPage";
+import GraphicsDesignPage from "./GraphicsDesignPage";
+import ContentCreationPage from "../pages/ContentCreationPage" ;
+import VerticalScroll from "../components/VerticalScroll";
 
 const HomePage = () => {
   return (
@@ -71,50 +80,25 @@ const HomePage = () => {
                 </button>
               </div>
             </div>
-            <div className="d-flex cards_area mx-5 mt-5 justify-content-between">
-              <div className=" col-7 webDesign_ctn">
-                <div className="d-flex">
-                  <div className="col-6 p-5 align-content-center">
-                    <div className="">
-                      <h2 className="fw-bold">Web Design</h2>
-                      <p className="text-secondary mt-3 inside_text">
-                        We design website that looks amazing, convey the right
-                        brand message and are highly oriented for conversion.
-                      </p>
-                      <span className="learn_title">
-                        {" "}
-                        LEARN MORE <HiArrowRight />
-                      </span>
-                    </div>
-                  </div>
-                  <div className="col d-flex justify-content-end webDesign_img_section">
-                    <img className="" src={webDesign} />
-                  </div>
-                </div>
-              </div>
 
-              {/* <div className="col-7 webDesign_ctn">
-                <div className="d-flex">
-                  <div className="col-6 p-5 align-content-center">
-                    <div className="p-5">
-                      <h2 className="fw-bold">Web Development</h2>
-                      <p className="text-secondary mt-3 inside_text">
-                        We develop fast, perfectly responsive, and SEO-optimized
-                        websites built with the best development practice of
-                        2023.
-                      </p>
-                      <span className="learn_title ">
-                        {" "}
-                        LEARN MORE <HiArrowRight />
-                      </span>
-                    </div>
-                  </div>
-                  <div className="col d-flex justify-content-end  webDevelopment_img_section">
-                    <img className="" src={WebDevelopment} />
-                  </div>
-                </div>
-              </div> */}
+            <div className="container-fluid py-4 mx-4">
+              <div className="row flex-nowrap custom-scrollbar  ">
+                <WebDesignPage />
+
+                <WebDevelopmentPage />
+
+                <AppDesignPage />
+
+                <AppDevelopmentPage />
+
+                <UiUxPage/>
+
+                <GraphicsDesignPage/>
+
+                <ContentCreationPage/>
+              </div>
             </div>
+            
           </div>
 
           <div className="third_screen container pt-5">
@@ -134,7 +118,8 @@ const HomePage = () => {
               </div>
             </div>
 
-            <div className="col-12 idea_ctn mt-4">
+<VerticalScroll/>
+            {/* <div className="col-12 idea_ctn mt-4">
               <div className="d-flex">
                 <div className="col-6 p-5 align-content-center">
                   <div className="p-3">
@@ -153,9 +138,9 @@ const HomePage = () => {
                   <img className="" src={ideaImg} />
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="col-12 idea_ctn mt-5">
+            {/* <div className="col-12 idea_ctn mt-5">
               <div className="d-flex">
                 <div className="col-6 p-5 align-content-center">
                   <div className="p-3">
@@ -175,7 +160,7 @@ const HomePage = () => {
                   <img className="" src={rectangle} />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="fourth_screen mt-5">
@@ -262,22 +247,11 @@ const HomePage = () => {
             </div>
           </div>
 
-          <div className="seventh_screen d-flex text-white">
-            <div>
-              <img src={digital} />
-            </div>
-            <div className="align-content-center p-5 mx-5">
-              <h1 className="seventh_screen_text">
-                Ready to create an amazing website for your company ?
-              </h1>
-              <p>
-                Our amazing team of designers & developers is ready to help you
-                take your website to the next level. Send us a message today!
-              </p>
-              <button className="getInTouch_btn me-4 mt-3">
-                  Get In touch <HiArrowRight />
-                </button>
-            </div>
+          <div>
+            <MainFrame />
+          </div>
+          <div>
+            <Footer />
           </div>
         </div>
       </div>
