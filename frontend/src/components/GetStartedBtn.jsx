@@ -1,11 +1,15 @@
 import React from 'react'
 import "./GetStartedBtn.css";
+import { FaArrowRight } from "react-icons/fa6";
 const GetStartedBtn = () => {
   return (
     <>
-        <div className=" col-2 ms-2 btn_space align-content-center d-flex justify-content-end ">
-              <button className="getStarted_btn ps-4 ">Get Started</button>
-            </div>
+         <button className="getStarted_btn ps-4 d-flex justify-content-between align-items-center">
+                Get Started
+                <div className="innerCircle">
+                  <FaArrowRight />
+                </div>
+              </button>
     </>
   )
 }

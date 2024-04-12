@@ -1,16 +1,18 @@
 .webDesign_ctn {
-  width: 900px;
+ 
   height: 370px;
   background-color: #fff;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 30px;
+  width: 930px !important;
 }
 .inside_text {
+  margin-top: -15px;
   font-weight: 400;
 }
 
 .webDesign_img_section {
-
+padding: 0;
   height: 370px;
   background-color: #ffebed;
   border-radius: 30px;

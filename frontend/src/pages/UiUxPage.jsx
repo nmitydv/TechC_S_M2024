@@ -5,9 +5,9 @@ import { HiArrowRight } from "react-icons/hi";
 const UiUxPage = () => {
   return (
     <>
-      <div className=" col-7 webDesign_ctn">
+      {/* <div className=" col-7 webDesign_ctn p-0">
         <div className="d-flex">
-          <div className="col-6 p-5 align-content-center">
+          <div className="col-6 p-4 align-content-center">
             <div className="p-5">
               <h2 className="fw-bold">UI/UX Design</h2>
               <p className="text-secondary mt-3 inside_text">
@@ -24,7 +24,7 @@ const UiUxPage = () => {
             <img className="" src={UiUxDesign} />
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

@@ -5,9 +5,9 @@ import ContentCreation from "../assets/ContentCreation.svg";
 const ContentCreationPage = () => {
   return (
     <>
-      <div className=" col-7 webDesign_ctn">
+      {/* <div className=" col-7 webDesign_ctn p-0">
         <div className="d-flex">
-          <div className="col-6 p-5 align-content-center">
+          <div className="col-6 p-4 align-content-center">
             <div className="p-5">
               <h2 className="fw-bold">Content Creation</h2>
               <p className="text-secondary mt-3 inside_text">
@@ -24,7 +24,7 @@ const ContentCreationPage = () => {
             <img className="" src={ContentCreation} />
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

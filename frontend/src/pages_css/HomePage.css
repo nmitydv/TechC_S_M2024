@@ -47,6 +47,7 @@
   height: 503px;
 }
 .second_screen {
+  padding-left: 70px;
   background-color: #95d8de;
 }
 .getInTouch_btn {
@@ -78,12 +79,17 @@
   font-size: 18px;
   line-height: 20px;
 }
+.fourth_screen{
+  margin-top: 100px;
+}
 .fift_screen {
   margin-top: 70px;
   height: 384px;
   /* width: 1206px; */
   border-radius: 23px;
   border: 1px solid rgba(235, 239, 246, 1);
+  background-color: 
+  #FFF3C9;
 }
 .fift_screen_textctn {
   width: 646px;
@@ -112,6 +118,7 @@
 .Academic_icon_bg {
   width: 60px;
   height: 60px;
+  padding: 10px;
   border-radius: 15px;
   background-color: #fff3c9;
 }
@@ -140,6 +147,7 @@
 }
 
 .custom-scrollbar {
+  gap: 40px;
   overflow-x: auto;
   overflow-y: hidden;
   scrollbar-width: none; /* Firefox */

@@ -1,11 +1,12 @@
-/* Navbar.css */
+
 .navbar {
   display: flex;
   justify-content: space-around; /* or any other value like space-between, center, etc. */
   align-items: center;
   padding: 10px; /* Optional padding */
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  
+  position: relative;
+  width: 100%;
 }
 .navbar-logo {
   width: 150px; /* Adjust width as needed */
@@ -14,33 +15,37 @@
 .nav-link {
   /* font-size: 15.25px;
   font-family: Nunito; */
+  
   font-weight: 400;
   line-height: 18px;
 }
 .btn_space {
 }
+.rightNav{
+  width: 35%;
+}
 .getStarted_btn {
+  z-index: 1;
   background-color: #edb159;
-  position: relative;
-  /* font-family: Proxima Nova; */
   font-weight: 400;
-  /* font-size: 14px; */
   line-height: 14px;
   width: 159px;
   height: 50px;
   border-radius: 192px;
-  left: -393px;
   text-align: start;
   border: none;
+  position: relative;
+  padding: 0 2px;
 }
-.getStarted_btn::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: 2px; /* Adjust the distance from the right side */
-  transform: translateY(-50%);
-  width: 45px; /* Adjust the size of the circle */
-  height: 45px; /* Adjust the size of the circle */
-  background-color: black;
+.innerCircle {
+  width: 44px;
+  height: 44px;
+  background: #000;
   border-radius: 50%;
+  border: none;
+  outline: none;
+color: #ffff;
+display: flex;
+justify-content: center;
+align-items: center;
 }
