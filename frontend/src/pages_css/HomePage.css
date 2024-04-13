@@ -1,27 +1,51 @@
-.first_screen {
-  border-bottom-right-radius: 120px;
+.first-screen {
+  background-image: url("C:\Users\lenovo\Desktop\New_webProject\Amour_Portfolio\frontend\src\assets\pattern.svg");
+  background-size: cover; 
+  background-position: center;
 }
 .text_ctn {
   width: 561px;
 }
-.heading_title {
-  font-weight: 500;
-  font-size: 16px;
-  color: #b47354;
+.hero-screen {
+
+ 
 }
+.section_screen {
+  height: 240.33px;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-bottom: 80px;
+  background-color: #b47354;
+  border-top-left-radius: 45.05px;
+  border-top-right-radius: 45.05px;
+}
+.section_screen-logo {
+  height: 90px;
+  gap: 45.05px;
+}
+.HelpYou-text {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+}
+
 .title_text {
   margin-top: 12px;
   color: black;
-  font-size: 46px;
+  font-size: 56px;
   font-weight: 700;
-  line-height: 54px;
+  line-height: 77px;
 }
 .subtitle_text {
-  margin-top: 12px;
+  margin-top: -12px;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
   color: #666666;
+}
+.bold-text {
+  font-weight: 700;
 }
 .get_btn {
   background-color: #edb159;
@@ -41,6 +65,12 @@
   line-height: 20px;
   font-size: 18px;
   align-content: center;
+}
+.frame4{
+  margin-left: 400px;
+}
+.frame7{
+  margin-left: 250px;
 }
 .img_section {
   width: 693px;
@@ -79,7 +109,7 @@
   font-size: 18px;
   line-height: 20px;
 }
-.fourth_screen{
+.fourth_screen {
   margin-top: 100px;
 }
 .fift_screen {
@@ -88,8 +118,7 @@
   /* width: 1206px; */
   border-radius: 23px;
   border: 1px solid rgba(235, 239, 246, 1);
-  background-color: 
-  #FFF3C9;
+  background-color: #fff3c9;
 }
 .fift_screen_textctn {
   width: 646px;
@@ -104,7 +133,7 @@
   font-weight: 400;
 }
 .leftIllustration {
-  height: 384px;
+  height: 383px;
 }
 .sixth_screen {
   margin-top: 100px;
@@ -129,13 +158,13 @@
   background-color: #fff3c9;
   border-radius: 30px;
 }
-.seventh_screen{
+.seventh_screen {
   margin-top: 100px;
-  background-color: #EDB159;
+  background-color: #edb159;
   border-top-right-radius: 100px;
   border-top-left-radius: 100px;
 }
-.seventh_screen_text{
+.seventh_screen_text {
   font-size: 46px;
   font-weight: 700;
 }

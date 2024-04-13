@@ -20,8 +20,8 @@ import Rectangle3 from "../assets/Rectangle3.svg";
 import Rectangle4 from "../assets/Rectangle4.svg";
 import Rectangle5 from "../assets/Rectangle5.svg";
 import BrowseIcon from "../assets/business_center.svg";
-import leftIllustration from "../assets/LefftIllustration.svg";
-import rightIllustration from "../assets/RightIllustration.svg";
+import leftIllustration from "../assets/Lefft Illustration.svg";
+import rightIllustration from "../assets/Right Illustration.svg";
 import AcademicWeb from "../assets/AcademicWeb.svg";
 import digital from "../assets/Digital.svg";
 import Footer from "../components/Footer";
@@ -35,19 +35,33 @@ import GraphicDesign from "../assets/GraphicDesign.svg";
 import ContentCreation from "../assets/ContentCreation.svg";
 import VerticalScroll from "../components/VerticalScroll";
 import GetStartedBtn from "../components/GetStartedBtn";
-import researchIcon from "../assets/ResearchIcon.svg"
-import designIcon from '../assets/DesignIcon.svg';
+import researchIcon from "../assets/ResearchIcon.svg";
+import designIcon from "../assets/DesignIcon.svg";
 import developmentIcon from "../assets/DevelopmentIcon.svg";
-import AcademicWebIcon from "../assets/AcademicWebIcon.svg"
+import AcademicWebIcon from "../assets/AcademicWebIcon.svg";
+import Humana from "../assets/Humana.svg";
+import Anthem from "../assets/Anthem.svg";
+import UnitedHealthcare from "../assets/UnitedHealthcare Vector.svg";
+import AetnaVector from "../assets/Aetna Vector.svg";
+import CignaVector from "../assets/Cigna Vector.svg";
+import Divider from "../assets/Divider.svg";
+import Frame1 from "../assets/Frame1.svg";
+import Frame2 from "../assets/Frame2.svg";
+import Frame3 from "../assets/Frame3.svg";
+import Frame4 from "../assets/Frame4.svg";
+import Frame5 from "../assets/Frame5.svg";
+import Frame6 from "../assets/Frame6.svg";
+import Frame7 from "../assets/Frame7.svg";
+import WholeFrame from "../assets/WholeFrame.svg";
 
 const HomePage = () => {
   return (
     <>
       <div className="">
-        <NavbarComponent />
-
         <div className="">
-          <div className="d-flex justify-content-center mt-5 first_screen">
+          <NavbarComponent />
+
+          {/* <div className="d-flex justify-content-center mt-5 first_screen">
             <div className="text_ctn align-content-center">
               <h5 className="heading_title">WEB DESIGN & DEVELOPMENT AGENCY</h5>
               <span className="title_text">
@@ -67,6 +81,104 @@ const HomePage = () => {
             </div>
             <div className="img_section d-flex justify-content-end ">
               <img src={image} />
+            </div>
+          </div> */}
+
+          <div className="first-screen">
+            <div className=" container hero-screen justify-content-center">
+              {/* <div className="d-flex justify-content-between">
+              <div className="d-flex">
+                {" "}
+                <img className="mb-5" src={Frame2} />
+              </div>
+              <div>
+                <img src={WholeFrame} />
+              </div>
+              <div>
+                {" "}
+                <img className="mt-5" src={Frame3} />
+              </div>
+            </div> */}
+              <div className="text-center">
+                {" "}
+                <h1 className="title_text">We Design & Develop the </h1>
+                <h1 className="title_text">Best</h1>
+              </div>
+              <div className="d-flex justify-content-between">
+                {" "}
+                <div>
+                  {" "}
+                  <img className="mb-5" src={Frame2} />
+                </div>
+                <div>
+                  <img src={Frame1} />
+                </div>
+                <div>
+                  {" "}
+                  <img className="mt-5" src={Frame3} />
+                </div>
+              </div>
+              <div className="text-center  mt-5">
+                <p className="subtitle_text">
+                  We focus on{" "}
+                  <span className="bold-text">Web & Mobile design</span>,
+                  helping clients stand out by unique
+                </p>
+                <p className="subtitle_text">
+                  interfaces that sell the{" "}
+                  <span className="bold-text">Brand</span>{" "}
+                </p>
+                <div className=" d-flex justify-content-center justify-content-between mt-4">
+                  <div className="">
+                    <img className="" src={Frame6} />
+                  </div>
+
+                  <div className="d-flex">
+                    <GetStartedBtn />
+                    <button className="watch_video mx-3">
+                      Watch Video
+                      <img className="mx-2" src={VideoIcon} />
+                    </button>
+                  </div>
+                  <div>
+                    <img className="mt-5 " src={Frame5} />
+                  </div>
+                </div>
+                <div className="d-flex">
+                <div className=" frame4 text-center mb-3">
+                  <img src={Frame4} />
+                </div>
+                <div className=" frame7 text-center mb-3">
+                  <img src={Frame7} />
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="section_screen py-3 mt-2">
+            <div className="px-5 section_screen-logo d-flex justify-content-between ">
+              <div>
+                <img className="" src={Humana} />
+              </div>
+              <div>
+                <img className="" src={Anthem} />
+              </div>
+
+              <div>
+                <img src={UnitedHealthcare} />
+              </div>
+              <div>
+                {" "}
+                <img src={AetnaVector} />
+              </div>
+              <div>
+                {" "}
+                <img src={CignaVector} />
+              </div>
+            </div>
+            <div className="mt-3 text-center">
+              <h1 className="HelpYou-text">How can we help you</h1>
+              <img className="" src={Divider} />
             </div>
           </div>
 
@@ -198,48 +310,47 @@ const HomePage = () => {
                 </div>
 
                 <div className=" col-7 webDesign_ctn p-0">
-        <div className="d-flex">
-          <div className="col-6 p-4 align-content-center">
-            <div className="p-5">
-              <h2 className="fw-bold">Graphic Design</h2>
-              <p className="text-secondary mt-3 inside_text">
-                We design websites that look amazing, convey the right brand
-                message and are highly oriented for conversion
-              </p>
-              <span className="learn_title ">
-                {" "}
-                LEARN MORE <HiArrowRight />
-              </span>
-            </div>
-          </div>
-          <div className="col d-flex justify-content-end GraphicDesign_img_section">
-            <img className="" src={GraphicDesign} />
-          </div>
-        </div>
-      </div>
+                  <div className="d-flex">
+                    <div className="col-6 p-4 align-content-center">
+                      <div className="p-5">
+                        <h2 className="fw-bold">Graphic Design</h2>
+                        <p className="text-secondary mt-3 inside_text">
+                          We design websites that look amazing, convey the right
+                          brand message and are highly oriented for conversion
+                        </p>
+                        <span className="learn_title ">
+                          {" "}
+                          LEARN MORE <HiArrowRight />
+                        </span>
+                      </div>
+                    </div>
+                    <div className="col d-flex justify-content-end GraphicDesign_img_section">
+                      <img className="" src={GraphicDesign} />
+                    </div>
+                  </div>
+                </div>
 
-
-      <div className=" col-7 webDesign_ctn p-0">
-        <div className="d-flex">
-          <div className="col-6 p-4 align-content-center">
-            <div className="p-5">
-              <h2 className="fw-bold">Content Creation</h2>
-              <p className="text-secondary mt-3 inside_text">
-                We design website that looks amazing, convey the right brand
-                message and are highly oriented for conversation.
-              </p>
-              <span className="learn_title ">
-                {" "}
-                LEARN MORE <HiArrowRight />
-              </span>
-            </div>
-          </div>
-          <div className="col d-flex justify-content-evenly ContentCreation_img_section">
-            <img className="" src={ContentCreation} />
-          </div>
-        </div>
-      </div>
-                
+                <div className=" col-7 webDesign_ctn p-0">
+                  <div className="d-flex">
+                    <div className="col-6 p-4 align-content-center">
+                      <div className="p-5">
+                        <h2 className="fw-bold">Content Creation</h2>
+                        <p className="text-secondary mt-3 inside_text">
+                          We design website that looks amazing, convey the right
+                          brand message and are highly oriented for
+                          conversation.
+                        </p>
+                        <span className="learn_title ">
+                          {" "}
+                          LEARN MORE <HiArrowRight />
+                        </span>
+                      </div>
+                    </div>
+                    <div className="col d-flex justify-content-evenly ContentCreation_img_section">
+                      <img className="" src={ContentCreation} />
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -262,93 +373,95 @@ const HomePage = () => {
             </div>
 
             {/* <VerticalScroll /> */}
-           
-<div class="row  vertical-custom-scrollbar d-flex mt-5">
-  <div class="col-12 idea_ctn mt-4 p-0">
-    <div class="d-flex">
-      <div class="col-6 p-5 align-content-center">
-        <div class="p-3">
-          <div class="idea_icon_bg ">
-            <img class="idea_icon" src={ideaIcon} />
-          </div>
-          <h2 class="fw-bold mt-3 p-3">Idea</h2>
-          <p class="text-secondary mt-2 inside_text p-3">
-            We meet with your team to know more about your project
-            idea and goals. After that, our team will work together to
-            create an action plan and proposal for your project.
-          </p>
-        </div>
-      </div>
-      <div class="col d-flex justify-content-center idea_card_img p-5 ">
-        <img class="" src={ideaImg} />
-      </div>
-    </div>
-  </div>
 
-  <div class="col-12 idea_ctn mt-5 p-0">
-    <div class="d-flex">
-      <div class="col-6 p-5 align-content-center">
-        <div class="p-3">
-          <div class="research_icon_bg">
-            <img class="idea_icon" src={researchIcon} />
-          </div>
-          <h2 class="fw-bold my-4">Research</h2>
-          <p class="text-secondary mt-3 inside_text">
-            We will share with you a detailed questionnaire to do an
-            in-depth analysis of your business. Once with that
-            information, we will able to create a design that is
-            tailor-made to reach your business goals.
-          </p>
-        </div>
-      </div>
-      <div class="col d-flex justify-content-center research_card_img p-5 ">
-        <img class="" src={rectangle} />
-      </div>
-    </div>
-  </div>
-
-  <div class="col-12 idea_ctn mt-5 p-0">
-    <div class="d-flex">
-      <div class="col-6 p-5 align-content-center">
-        <div class="p-3">
-          <div class="design_icon_bg ">
-            <img class="idea_icon" src={designIcon} />
-          </div>
-          <h2 class="fw-bold my-4">Design</h2>
-          <p class="text-secondary mt-3 inside_text">
-            We are going to design a mockup or prototypeof your website, and present it to you.
-            Once with the initial mockup, we will start the revision process to perfect it.
-          </p>
-        </div>
-      </div>
-      <div class="col d-flex justify-content-center Design_card_img p-5 ">
-        <img class="" src={UiUxDesign} />
-      </div>
-    </div>
-  </div>
-
-  <div className="col-12 idea_ctn mt-5">
-              <div className="d-flex">
-                <div className="col-6 p-5 align-content-center">
-                  <div className="p-3">
-                    <div className="Development_icon_bg">
-                      <img className="research_icon" src={developmentIcon} />
+            <div class="row  vertical-custom-scrollbar d-flex mt-5">
+              <div class="col-12 idea_ctn mt-4 p-0">
+                <div class="d-flex">
+                  <div class="col-6 p-5 align-content-center">
+                    <div class="p-3">
+                      <div class="idea_icon_bg ">
+                        <img class="idea_icon" src={ideaIcon} />
+                      </div>
+                      <h2 class="fw-bold mt-3 p-3">Idea</h2>
+                      <p class="text-secondary mt-2 inside_text p-3">
+                        We meet with your team to know more about your project
+                        idea and goals. After that, our team will work together
+                        to create an action plan and proposal for your project.
+                      </p>
                     </div>
-                    <h2 className="fw-bold mt-3">Development</h2>
-                    <p className="text-secondary mt-3 inside_text">
-                      We will share with you a detailed questionnaire to do an
-                      in-depth analysis of your business. Once with that
-                      information, we will able to create a design that is
-                      tailor-made to reach your business goals.
-                    </p>
+                  </div>
+                  <div class="col d-flex justify-content-center idea_card_img p-5 ">
+                    <img class="" src={ideaImg} />
                   </div>
                 </div>
-                <div className="col d-flex justify-content-center Development_card_img p-5 ">
-                  <img className="" src={ContentCreation} />
+              </div>
+
+              <div class="col-12 idea_ctn mt-5 p-0">
+                <div class="d-flex">
+                  <div class="col-6 p-5 align-content-center">
+                    <div class="p-3">
+                      <div class="research_icon_bg">
+                        <img class="idea_icon" src={researchIcon} />
+                      </div>
+                      <h2 class="fw-bold my-4">Research</h2>
+                      <p class="text-secondary mt-3 inside_text">
+                        We will share with you a detailed questionnaire to do an
+                        in-depth analysis of your business. Once with that
+                        information, we will able to create a design that is
+                        tailor-made to reach your business goals.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col d-flex justify-content-center research_card_img p-5 ">
+                    <img class="" src={rectangle} />
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 idea_ctn mt-5 p-0">
+                <div class="d-flex">
+                  <div class="col-6 p-5 align-content-center">
+                    <div class="p-3">
+                      <div class="design_icon_bg ">
+                        <img class="idea_icon" src={designIcon} />
+                      </div>
+                      <h2 class="fw-bold my-4">Design</h2>
+                      <p class="text-secondary mt-3 inside_text">
+                        We are going to design a mockup or prototypeof your
+                        website, and present it to you. Once with the initial
+                        mockup, we will start the revision process to perfect
+                        it.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col d-flex justify-content-center Design_card_img p-5 ">
+                    <img class="" src={UiUxDesign} />
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12 idea_ctn mt-5">
+                <div className="d-flex">
+                  <div className="col-6 p-5 align-content-center">
+                    <div className="p-3">
+                      <div className="Development_icon_bg">
+                        <img className="research_icon" src={developmentIcon} />
+                      </div>
+                      <h2 className="fw-bold mt-3">Development</h2>
+                      <p className="text-secondary mt-3 inside_text">
+                        We will share with you a detailed questionnaire to do an
+                        in-depth analysis of your business. Once with that
+                        information, we will able to create a design that is
+                        tailor-made to reach your business goals.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="col d-flex justify-content-center Development_card_img p-5 ">
+                    <img className="" src={ContentCreation} />
+                  </div>
                 </div>
               </div>
             </div>
-</div>
           </div>
 
           <div className="fourth_screen ">
@@ -383,18 +496,17 @@ const HomePage = () => {
             </div>
           </div>
 
-         
-
           <div className="sixth_screen container">
             <div className="text-center upper_text ">
               <span className="heading_title ">OUR PRODUCTS</span>
               <h1 className="mt-2 fw-bold">Products by Amourtech</h1>
               <p className="text-secondary">
                 At BRIX Agency we don't just produce work for our client. We
-                also design, develop and create 
+                also design, develop and create
               </p>
-              <p className="text-secondary ">digital products used and loved
-                by thousands.</p>
+              <p className="text-secondary ">
+                digital products used and loved by thousands.
+              </p>
             </div>
             <div className="col-12 idea_ctn mt-5">
               <div className="d-flex">
@@ -406,13 +518,18 @@ const HomePage = () => {
                     <h2 className="fw-bold my-4">Academic Web App</h2>
                     <p className="text-secondary mt-3 inside_text">
                       We are one of the biggest contributors to the Figma
-                      
                     </p>
-                    <p className="text-secondary inside_text">community. In the last 24 months, we have published over
-                      50 </p>
-                      <p className="text-secondary inside_text">free figma cloneables, and over 300,000 users have
-                     </p>
-                     <p className="text-secondary inside_text"> downloaded them since then.</p>
+                    <p className="text-secondary inside_text">
+                      community. In the last 24 months, we have published over
+                      50{" "}
+                    </p>
+                    <p className="text-secondary inside_text">
+                      free figma cloneables, and over 300,000 users have
+                    </p>
+                    <p className="text-secondary inside_text">
+                      {" "}
+                      downloaded them since then.
+                    </p>
                   </div>
                 </div>
                 <div className="col d-flex justify-content-center Academic_card_img p-5 ">
@@ -422,10 +539,9 @@ const HomePage = () => {
             </div>
           </div>
 
-
-          <div className="fift_screen d-flex justify-content-between container">
-            <div className="col-2">
-              <img className="leftIllustration" src={leftIllustration} />
+          <div className="fift_screen d-flex justify-content-between container p-0">
+            <div className="col-2  ">
+              <img className="leftIllustration " src={leftIllustration} />
             </div>
             <div className="fift_screen_textctn text-center mt-5 ">
               <h1 className="fw-bold text-center">
