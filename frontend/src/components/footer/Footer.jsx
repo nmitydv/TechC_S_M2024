@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/logo.svg";
 import { Link } from "react-router-dom";
-import { routesConstant } from "../routes/AppRoutesConstants";
+import { routesConstant } from "../../routes/AppRoutesConstants";
 import "../components/Footer.css";
 import instagram from "../assets/instagram 1.svg";
 import facebook from "../assets/facebook 1.svg";

@@ -15,8 +15,7 @@ import AppDevelopmentPage from "../pages/AppDevelopmentPage";
 import UiUxPage from "../pages/UiUxPage";
 import GraphicsDesignPage from "../pages/GraphicsDesignPage";
 import ContentCreationPage from "../pages/ContentCreationPage";
-import NavbarComponent from "../components/navbar/NavbarComponent";
-import Footer from "../components/Footer";
+
 
 export const AppRoutes = () => {
   return (
@@ -27,9 +26,7 @@ export const AppRoutes = () => {
           <Route
             path={routesConstant.Home.path}
             element={
-              // <NavbarComponent>
                 <HomePage />
-              // </NavbarComponent>
             }
           />
           <Route path={routesConstant.About.path} element={<AboutPage />} />
@@ -66,14 +63,6 @@ export const AppRoutes = () => {
             path={routesConstant.ContentCreation.path}
             element={<ContentCreationPage />}
           />
-          {/* <Route
-            path={routesConstant.Home.path}
-            element={
-              <Footer>
-                <HomePage />
-              </Footer>
-            }
-          /> */}
         </Routes>
       </BrowserRouter>
     </>
